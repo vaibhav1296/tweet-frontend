@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
+.navBar{
+    background-color: black;
+    color: white;
+    height: 6vh;
+}
+.message{
+    width: 30%;
+    margin: auto;
+    /* height: 3vh; */
+    background-color: #e6e6e6;
+    color:black;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navLink{
+    color:white;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navLinkHome{
+    color:black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navLinkHome:hover{
+    color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.navLink:hover{
+    color: white;
+}
+.logoutButton{
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeBox{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    height: 500px;
+
 }
+
+.formContainer{
+    width: 30%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headingBox{
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.noteText{
+    font-size: 14px;
+    margin: 1px;
+}
+
+.formDiv{
+    width: 90%;
+}
+
+.buttonDiv{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitButton{
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.popUpCancel{
+    cursor: pointer;
+}
+
+.userDetail{
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.feedContainer{
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+}
+.userBox{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.followButton{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.userCard{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardButton{
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.cardButton:hover{
+    color:black
+}
+
+.userListDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.postCard{
+    display: flex;
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    margin: 5px;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+.cardText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.likeButton{
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+}
+.postListDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.detail{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
